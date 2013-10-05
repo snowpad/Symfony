@@ -1,0 +1,4 @@
+lidl_lidl:
+    resource: "@LidlLidlBundle/Resources/config/routing.yml"
+    prefix:   /
+

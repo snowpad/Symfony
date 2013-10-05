@@ -1,0 +1,3 @@
+lidl_lidl_homepage:
+    pattern:  /lidl/{name}
+    defaults: { _controller: LidlLidlBundle:Default:index }
