@@ -1,4 +1,6 @@
-lidl_lidl:
-    resource: "@LidlLidlBundle/Resources/config/routing.yml"
+lidl_my:
+    resource: "@LidlMyBundle/Resources/config/routing.yml"
     prefix:   /
-
+task:
+    resource: "@LidlMyBundle/Controller/TaskController.php"
+    type: annotation
